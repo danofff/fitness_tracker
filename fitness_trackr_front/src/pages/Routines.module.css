@@ -1,0 +1,148 @@
+.routinespage {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.routinespage h1 {
+  display: flex;
+  align-items: flex-start;
+  border-right: 3px solid #0061ff;
+  font-size: 2.75rem;
+  padding-right: 2rem;
+  flex-basis: 230px;
+}
+
+.main {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  padding-left: 2rem;
+}
+
+/* For "My Routines" */
+.openFormButton {
+  padding: 1rem;
+  font-size: 1rem;
+  max-width: 150px;
+  background-color: #0061ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.openFormButton i {
+  color: white;
+  margin-right: 0.2rem;
+}
+
+.openFormButton:hover {
+  background-color: #003c9c;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 0 1rem 0;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  width: 30rem;
+}
+
+.form h3 {
+  color: #0061ff;
+  width: 11vw;
+  font-size: 1.5rem;
+  margin-right: 2rem;
+  padding: 1rem;
+  border-right: 3px solid #0061ff;
+}
+
+.formRight {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.formContent {
+  align-self: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.formContent h3 {
+  flex-basis: 120px;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.cancelButtonBox {
+  display: flex;
+  align-self: flex-end;
+  width: 100%;
+}
+
+.cancelButton {
+  align-self: flex-end;
+  margin-bottom: 1rem;
+}
+.cancelButton i {
+  color: black;
+}
+
+.cancelButton i:hover {
+  color: grey;
+}
+
+.form button {
+  padding: 0.5rem;
+  font-weight: 600;
+  height: 2rem;
+}
+
+.inputsBox {
+  display: flex;
+  flex-direction: column;
+}
+
+/* .inputsBox * {
+  margin-bottom: 0.5rem;
+} */
+
+.submitButton {
+  background-color: #0061ff;
+  color: white;
+  border: 1px solid #0061ff;
+  border-radius: 4px;
+  align-self: flex-end;
+}
+
+.submitButton:hover {
+  background-color: #003c9c;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.cancelButton {
+  color: black;
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem;
+}
+
+.cancelButton:hover {
+  color: grey;
+  transition: color 0.5s ease-in-out;
+}
+
+.routinespage ul {
+  display: flex;
+  flex-direction: column;
+}

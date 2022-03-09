@@ -1,0 +1,40 @@
+.form {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 15rem;
+  background-color: rgb(255, 255, 255);
+  padding: 1rem;
+}
+
+.form button {
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.buttonBox {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.cancelButton {
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+}
+
+.cancelButton:hover {
+  background-color: lightgrey;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.submitButton {
+  background-color: orange;
+  color: white;
+  border: 1px solid orange;
+}
+
+.submitButton:hover {
+  background-color: rgb(243, 113, 38);
+  transition: background-color 0.5s ease-in-out;
+}

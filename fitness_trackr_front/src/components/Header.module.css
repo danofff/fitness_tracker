@@ -1,0 +1,73 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 1rem;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #0061ff;
+  margin-right: 1.5rem;
+}
+
+.title i {
+  color: #0061ff;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.active {
+  margin-right: 1.5rem;
+  border-bottom: 2px solid #0061ff;
+}
+
+.plainLink {
+  margin-right: 1.5rem;
+  border-bottom: 2px solid transparent;
+}
+
+.plainLink:hover {
+  color: #0061ff;
+  border-bottom: 2px solid #0061ff;
+  transition: color 0.3s ease-in-out, border-bottom 0.2s ease-in-out;
+}
+
+.loginButton {
+  color: #0061ff;
+  border: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 0.6rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.loginButton:hover {
+  color: white;
+  background-color: #0061ff;
+  transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out,
+    color 0.3s ease-in-out;
+  border: 1px solid #0061ff;
+}
+
+.logoutButton {
+  border: 1px solid white;
+  background-color: #0061ff;
+  color: white;
+  padding: 0.6rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.logoutButton:hover {
+  background-color: #003c9c;
+  transition: background-color 0.3s ease-in-out;
+}

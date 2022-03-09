@@ -1,0 +1,30 @@
+.container {
+  width: 100%;
+  position: relative;
+  margin-bottom: 1.75rem;
+}
+
+.container label {
+  position: absolute;
+  left: 0.8rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #fff;
+  transition: all 0.1s ease-in-out;
+  z-index: 9;
+}
+
+.input {
+  position: relative;
+  z-index: 10;
+  background-color: transparent;
+  padding: 0.5rem;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.label.focused {
+  top: 0;
+  font-size: 0.8rem;
+  z-index: 11;
+}

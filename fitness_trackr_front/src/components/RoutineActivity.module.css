@@ -1,0 +1,61 @@
+.routineActivity {
+  margin: 0.5rem 1rem;
+}
+
+.routineActivity td {
+  padding: 0.3rem 2rem 0.3rem 0;
+}
+
+/* For "My Routines" */
+
+.routineActivity button {
+  border: none;
+  outline: none;
+}
+.deleteButton {
+  color: black;
+  background-color: transparent;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.deleteButton i {
+  color: orange;
+  margin-right: 0.2rem;
+}
+
+.deleteButton i:hover {
+  color: rgb(255, 66, 66);
+  transition: color 0.5s ease-in-out;
+}
+
+.routineActivity input {
+  width: 3rem;
+}
+
+.editButton {
+  background-color: white;
+  cursor: pointer;
+  padding: 0.2rem 0.2rem 0.2rem 0.3rem;
+}
+
+.editButton i {
+  color: orange;
+}
+
+.editButton i:hover {
+  color: rgb(243, 113, 38);
+  transition: color 0.5s ease-in-out;
+}
+
+.acceptButton i {
+  background-color: white;
+  color: #0061ff;
+  cursor: pointer;
+  padding: 0.2rem 0.2rem 0.2rem 0.3rem;
+}
+
+.acceptButton i:hover {
+  color: #003c9c;
+  transition: color 0.5s ease-in-out;
+}
